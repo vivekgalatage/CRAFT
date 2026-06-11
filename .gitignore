@@ -1,0 +1,50 @@
+# ==============================================================================
+# .gitignore for CRAFT Obsidian Vault
+# ==============================================================================
+
+# --- Obsidian Workspace State (machine specific) ---
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# --- Obsidian Plugin Code (reinstallable, settings preserved via data.json) ---
+.obsidian/plugins/**/main.js
+.obsidian/plugins/**/styles.css
+.obsidian/plugins/**/manifest.json
+.obsidian/plugins/**/*.sh
+.obsidian/plugins/**/*.cache
+
+# --- Sync & Cache Artifacts ---
+.obsidian/cache/
+.obsidian/plugins/**/*.cache
+.obsidian/plugins/**/data.json.bak
+
+# --- Binary Files (stored locally, not in git) ---
+*.pdf
+*.docx
+*.doc
+*.mp4
+*.mov
+*.zip
+*.xlsx
+*.xls
+*.pptx
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Linux ---
+.trash/
+.directory
+
+# --- Security ---
+.env
+*.local
